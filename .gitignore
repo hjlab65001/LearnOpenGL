@@ -1,0 +1,35 @@
+# 编译产物
+/build/
+/bin/
+/lib/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# IDE/编辑器配置
+.vscode/
+.idea/
+*.suo
+*.ncb
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# 日志文件
+*.log
+*.out
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+
+# 特定于项目的忽略（如果有）
+# shader_cache/
+# textures/generated/
